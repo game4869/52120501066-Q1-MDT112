@@ -74,7 +74,7 @@ else if(count==3){
 }
 else if(count>3){
     times*2;
-    Serial.println("Faster X2 (Current Speed : X"+String(count*count)+")");
+    Serial.println("Faster X2 (Current Speed : X"+String(2*count)+")");
     count++;
 }
 }
